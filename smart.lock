@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "filepicker-plus": {},
+      "masonrify": {}
+    },
+    "packages": {
+      "filepicker-plus": {
+        "git": "https://github.com/nate-strauser/meteor-filepicker-plus.git",
+        "tag": "v1.2.1",
+        "commit": "80b31d01c959b0687d6ff14ece275cfb9f2f63d2"
+      },
+      "masonrify": {
+        "git": "https://github.com/voodoohop/meteor-masonrify.git",
+        "tag": "v0.0.3",
+        "commit": "e7a5e71a4193bd68a7bae4c250931147659b5dcb"
+      }
+    }
+  }
+}
