@@ -13,4 +13,3 @@ Router.configure
 
 Router.route '/', ->
   this.render 'Main'
-  
