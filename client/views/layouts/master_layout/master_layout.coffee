@@ -13,5 +13,6 @@ Template.MasterLayout.helpers
 Template.MasterLayout.created = ->
 
 Template.MasterLayout.rendered = ->
+  snapper = new Snap(element: document.getElementById('content'))
 
 Template.MasterLayout.destroyed = ->
