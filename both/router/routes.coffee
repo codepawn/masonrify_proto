@@ -13,3 +13,7 @@ Router.configure
 
 Router.route '/', ->
   this.render 'Main'
+
+Router.route 'b',
+  path: 'b'
+  name: 'b'
