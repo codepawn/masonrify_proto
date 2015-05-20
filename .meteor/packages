@@ -5,13 +5,12 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 iron:router
-filepicker-plus
 mrt:jquery-imagesloaded
 jquery
 coffeescript
 ian:bootstrap-3
-masonrify
 less
+robodo:masonrify
+msavin:mongol
+insecure

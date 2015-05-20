@@ -2,19 +2,21 @@
 
   <!--<button class="btn btn-danger" name="rm">Remove</button>-->
 
-    {{#masonryContainer columnWidth=1 transitionDuration="0.1s" gutter=2 id="MasonryContainer" isOriginTop = true}}
+  {{#masonryContainer columnWidth=1 transitionDuration="0.1s" gutter=2 id="MasonryContainer" isOriginTop = true}}
 
+    {{#masonryElement "MasonryContainer"}}
+      <button id="addPic" class="btn btn-danger" name="add">Add</button>
+    {{/masonryElement}}
+
+    {{#each items}}
+      <a href="{{pathFor 'detail'}}">
         {{#masonryElement "MasonryContainer"}}
-          <button id="addPic" class="btn btn-danger" name="add">Add</button>
+          {{> Items}}
         {{/masonryElement}}
+      </a>
+    {{/each}}
 
-        {{#each items}}
-            {{#masonryElement "MasonryContainer"}}
-                {{> Items}}
-            {{/masonryElement}}
-        {{/each}}
-
-    {{/masonryContainer}}
+  {{/masonryContainer}}
 
 </template>
 
